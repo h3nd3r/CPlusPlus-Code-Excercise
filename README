@@ -1,0 +1,24 @@
+Write an object oriented C++ console application that uses a string comparison member function (that you wrote) that meets the following requirements:
+
+ 
+
+Allow the user to enter two strings.
+
+Entered or passed strings may be of any length, trap for edge conditions, and display error messages. Functions cannot make use of, or "wrap" any existing API or STL calls (e.g. strlen(), strcmp(), ...); i.e. you should only have #include <stdio.h> and <iostream> no other libraries are to be used, all low level objects/functions should be written by you. Function must return an int that is <0 if string1 is less than string2; 0 if string1 is the same as string2; or >0 if string1 is greater than string2; and display the 2 strings as noted below.
+
+ 
+
+If the return value is <0, then one string is returned and is made up with the two strings inverted and then concatenated, e.g. abcdef and uvwxyz, would be displayed as fedcbazyxwvu.
+
+ 
+
+If the return value is 0, then one string is returned and is made up with the merged 2 input strings; e.g. abcdef and abcdef, would be displayed as aabbccddeeff.
+
+ 
+
+If the return value is >0, then one string is returned and is made up with the input strings inverted and merged; e.g. uvwxyz and abcdef, would be displayed as zfyexdwcvbua
+
+ 
+
+Please return a file named YourName.zip.remove file that includes all project files needed to compile and run the solution, along with an executable. Note the zip.remove extension is to make sure it gets past our virus filters.  Please note your compiler and any exotic switches used.
+
